@@ -10,39 +10,53 @@
     /* header ------------------------------------------------------- */
     #header {
       height: 120px;
-      text-align: center; overflow: hidden;
+      text-align: center;
+      overflow: hidden;
     }
+
     #header>ul {
-      height: 53px; margin-top: 33px;
+      height: 53px;
+      margin-top: 33px;
     }
+
     #header>ul>li {
-      display: inline-block; padding: 0 40px;
+      display: inline-block;
+      padding: 0 40px;
     }
+
     #header>ul>li>a {
       text-decoration: none;
       color: black;
     }
+
     #header>ul>li:hover {
       text-decoration: underline;
     }
+
     #header>ul>li:hover>a {
       color: red;
     }
+
     /* main picture ------------------------------------------------- */
     #main_picture {
       height: 464px;
       background-image: url('./img/main.png');
       background-size: 100% 464px;
     }
+
     /* icon title --------------------------------------------------- */
     #icon_title {
-      line-height: 26px; 
-      text-align: center; font-size: 10px;
+      line-height: 26px;
+      text-align: center;
+      font-size: 10px;
       margin: 30px 0;
     }
+
     #icon_title>span {
-      font-size: 20px; font-weight: 700;
+      font-size: 20px;
+      font-weight: 700;
     }
+
     /* icon box ----------------------------------------------------- */
     #icon_box {
       width: 1240px;
@@ -50,12 +64,49 @@
       margin: 10px auto;
       /* background-color: pink; */
     }
+
     #icon_box>p {
-      width: 250px; float: left;
-      margin: 0 30px; padding: 30px 0;
-      line-height: 25px; text-align: center;
-      font-size: 14px; border-bottom: 2px dotted gray;
+      width: 250px;
+      float: left;
+      margin: 0 30px;
+      padding: 30px 0;
+      line-height: 25px;
+      text-align: center;
+      font-size: 14px;
+      border-bottom: 2px dotted gray;
       /* background-color: orange; */
+    }
+
+    /* chefs -------------------------------------------------------- */
+    #chefs {
+      height: 304px;
+      background-color: #ececec;
+      margin: 30px 0;
+    }
+
+    #chefs>div {
+      width: 771px;
+      margin: 0 auto;
+      /* background-color: pink; */
+      overflow: hidden;
+    }
+
+    #chefs>div>p {
+      width: 500px;
+      float: left;
+      line-height: 26px;
+      margin-top: 90px;
+    }
+
+    #chefs>div>p>span {
+      font-weight: 700;
+      font-size: 24px;
+      text-decoration: underline;
+      line-height: 50px;
+    }
+
+    #chefs>div>img {
+      margin-left: 30px;
     }
   </style>
 </head>
@@ -78,21 +129,35 @@
   </div>
   <div id="icon_box">
     <p>
-      <img src="./img/icon1.png" alt="icon1 image"/><br>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <img src="./img/icon1.png" alt="icon1 image" /><br>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua.
     </p>
     <p>
-      <img src="./img/icon2.png" alt="icon1 image"/><br>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <img src="./img/icon2.png" alt="icon1 image" /><br>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua.
     </p>
     <p>
-      <img src="./img/icon3.png" alt="icon1 image"/><br>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <img src="./img/icon3.png" alt="icon1 image" /><br>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua.
     </p>
     <p>
-      <img src="./img/icon4.png" alt="icon1 image"/><br>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <img src="./img/icon4.png" alt="icon1 image" /><br>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua.
     </p>
+  </div>
+  <div id="chefs">
+    <div>
+      <p>
+        <span>Title</span><br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua.
+      </p>
+      <img src="./img/chef.png" alt="chef image">
+    </div>
   </div>
 </body>
 
