@@ -20,3 +20,9 @@
 #header>ul>li:hover>a {
   color: red;
 }
+/* main_picture ****************************************************/
+#main_picture {
+  height: 464px;
+  background-image: url('./img/main.png');
+  background-size: 100% 464px;
+}
