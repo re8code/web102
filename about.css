@@ -43,3 +43,27 @@ h1 {
 #box_all .box:nth-child(2n+1) {
   background-color: #6e5f4e;
 }
+/* footer **********************************************************/
+#footer .fleft {
+  width: 750px;
+  background-color: darkgray;
+  float: left;
+}
+#footer .fleft ul {
+  height: 40px;
+  padding-left: 10px;
+}
+#footer .fleft ul li {
+  display: inline-block;
+  font-size: 14px; line-height: 40px;
+  margin: 0 5px;
+}
+#footer .fleft ul li:nth-child(2n) {
+  font-weight: 900;
+  color: orange;
+}
+#footer .fright {
+  width: 250px; height: 40px;
+  background-color: pink;
+  float: left;
+}
