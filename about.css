@@ -12,10 +12,14 @@
   width: 250px;
   height: 500px;
   float: left;
-  background-color: lightgreen;
+  background-color: burlywood;
 }
 img {
   display: block;
+}
+h1 {
+  font-size: 30px; font-weight: 900;
+  line-height: 50px;
 }
 /* top *************************************************************/
 #top {
@@ -29,4 +33,13 @@ img {
 }
 #top .top span {
   font-size: 20px; font-weight: 900;
+}
+/* box_all *********************************************************/
+#box_all .box {
+  width: 210px; height: 210px; padding: 20px;
+  background-color: #e68243;
+  float: left;
+}
+#box_all .box:nth-child(2n+1) {
+  background-color: #6e5f4e;
 }
